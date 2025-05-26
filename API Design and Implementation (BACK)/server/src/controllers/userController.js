@@ -1,7 +1,7 @@
 const dataStore = require('../models');
 
 // GET all users
-const getAllUsers = (req, res) => {
+const getAllUsers = (_req, res) => {
   res.status(200).json(dataStore.users);
 };
 

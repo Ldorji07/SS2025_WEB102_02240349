@@ -12,7 +12,7 @@ router.post('/', videoController.createVideo);
 router.get('/:id', videoController.getVideoById);
 
 // PUT/api/videos/:id Update video r
-outer.put('/:id', videoController.updateVideo);
+router.put('/:id', videoController.updateVideo);
 
 // DELETE /api/videos/:id Delete video 
 router.delete('/:id', videoController.deleteVideo);
